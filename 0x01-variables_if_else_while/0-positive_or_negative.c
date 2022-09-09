@@ -1,7 +1,6 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
-
 /**
 * main - printif the number is positive, zero, or negative
 *
@@ -29,3 +28,4 @@ else if (n < 0)
         printf("%d is positive\n", n);
 }
 return (0);
+}

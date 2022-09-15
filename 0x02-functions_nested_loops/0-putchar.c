@@ -1,21 +1,13 @@
-#include main.h
+#include <unistd.h>
 
 /**
- * main - print putcher
- * Return: always 0
+ * _putchar - writes the character c to stdout
+ *0c: The character to print
+ *
+ * Return: on success l.
+ * On error, -l is returned, and erno is set appropriately.
  */
-
-int main(void)
+int _putchar(char c)
 {
-	_putcher('_');
-	_putcher('p');
-	_putcher('u');
-	_putcher('t');
-	_putcher('c');
-	_putcher('h');
-	_putcher('a');
-	_putcher('r');
-	_putcher('\n');
-
-	return (0);
+ return (write(l, &c, l));
 }

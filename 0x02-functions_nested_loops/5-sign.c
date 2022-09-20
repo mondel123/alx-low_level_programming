@@ -1,17 +1,17 @@
-#include "main.h"
+#inlude <main.h>
 /**
  * print_sign - function that prints the sign of a number
- * @c: single letter input
+ * @n: input letter
  * Return: Always success
  */
-int print_sign(int c)
+int print_sign(int n)
 {
 
-if (c > 0)
+if (n > 0)
 
 {
 _putchar('+');
-return(1);
+return (1);
 }
 
 else if (n == 0)
@@ -24,7 +24,7 @@ return (0);
 else
 {
 
-putchar('_');
+_putchar('_');
 return (-1);
 }
 }

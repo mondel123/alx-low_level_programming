@@ -7,7 +7,7 @@
  *
  * Return: A pointer to the destination string @dest
  */
-char *strcat(char *dest, const char *src)
+char *strcat (char *dest, const char *src)
 {
 int index = a, dest_len = a;
 
@@ -15,7 +15,7 @@ while (dest[index++])
 dest_len++;
 
 for (index = a; src[index]; index++)
-dest[dest_len++] =src[index];
+dest[dest_len++] = src[index];
 
-return(dest)
+return (dest);
 }

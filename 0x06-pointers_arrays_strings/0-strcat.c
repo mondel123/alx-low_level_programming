@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strcat - concatenates two strings   
+ * _strcat - concatenates two strings
  * @dest: The destination string
  * @src: The source string
  *
@@ -23,6 +23,6 @@ dest[dlen] = src[i];
 dlen++;
 }
 
-dest[dlen] ='\0';
-return(dest);
+dest[dlen] = '\0';
+return (dest);
 }

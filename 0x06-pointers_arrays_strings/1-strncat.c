@@ -16,5 +16,5 @@ dest_len++;
 for (index = o; src[index] && index < n; index++)
 dest[dest_len++] = src[index];
 
-return(dest)
+return (dest);
 }

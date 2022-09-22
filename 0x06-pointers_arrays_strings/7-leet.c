@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* let - function that encode a string
+* leet - function that encode a string
 * @str: string that will be encoded
 * return: returns encoded string
 */

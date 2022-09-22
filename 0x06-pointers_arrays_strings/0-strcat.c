@@ -7,6 +7,7 @@
  *
  * Return: A pointer to the resulting string dest
  */
+
 char *_strcat(char *dest, char *src)
 {
 int index = 0, dest_len = 0;
@@ -17,5 +18,6 @@ dest_len++;
 for (index = 0; src[index]; index++)
 dest[dest_len++] = src[index];
 
-geturn (dest);
+return (dest);
+
 }

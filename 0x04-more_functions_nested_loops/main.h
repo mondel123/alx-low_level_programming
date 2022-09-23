@@ -2,22 +2,22 @@
 #define MAIN_H
 
 /**
-*main - header file for protoypes
-*void protoypes (void)
-*int protoypes (int)
-*/
+ * main - header file for protoypes
+ * void protoypes (void)
+ * int protoypes (int)
+ */
 
+int _putchar(char c);
+int _isupper(int c);
+int _isdigit(int c);
+int mul(int a, int b);
 void print_numbers(void);
-old print_most_numbers(void);
-void more_numbers(void)
+void print_most_numbers(void);
+void more_numbers(void);
 void print_line(int n);
 void print_diagonal(int n);
 void print_squre(int size);
 void print_triangle(int size);
-void print_number(int n);
-int _putchar(char);
-int _isupper(int);
-int _isdigit(int);
-int _mul(int, int);
+void print_numbers(int n);
 
 #end /* MAIN_H */

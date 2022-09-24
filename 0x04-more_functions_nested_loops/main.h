@@ -19,5 +19,3 @@ void print_diagonal(int n);
 void print_squre(int size);
 void print_triangle(int size);
 void print_numbers(int n);
-
-#end /* MAIN_H */

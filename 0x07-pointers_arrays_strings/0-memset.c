@@ -5,7 +5,6 @@
  * @s: start address
  * @b: value
  * @n: number of bytes
- *
  * Return: Always 0
  */
 

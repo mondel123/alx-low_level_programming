@@ -1,5 +1,4 @@
-#include "main.h"
-
+#include "main.h"`
 /**
  * _memcpy - fills memory with another buffer
  * @dest: source string
@@ -17,5 +16,6 @@ while (i < n)
 *(dest + i) = *(src + i);
 i++;
 }
+
 return (dest);
 }

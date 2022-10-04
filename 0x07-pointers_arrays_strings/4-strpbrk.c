@@ -3,27 +3,25 @@
 /**
  * _strpbrk - search a string for any of a set of bytes
  * @s: source string
+ * @accept: string to check against
  *
  * Return: the string since the first found accepted character
  */
 char *_strpbrk(char *s, char *accept)
 {
-int a = 0, b;
+unsigned int i, j;
 
-while (s[a])
+for (i = 0; s[i]; i++)
 {
-b = 0;
-
-while (accept[b])
-{
-if (s[a] == accept[b])
-{
-s += a;
-return (s);
+	for (j = 0; accept[j]; j++)
+	{
+		if (s[i] == accept[j])
+		{
+			break;
+		}
+	}
+	if (accept[j])
+		return (s + i);
 }
-b++;
-}
-a++;
-}
-return ('\0');
+return (0);
 }

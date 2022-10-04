@@ -64,7 +64,6 @@ int i, j = 0, temp = 0, size = 0, words = num_words(str);
 
 if (words == 0)
 	return (NULL);
-
 split = (char **) malloc(sizeof(char *) * (words + 1));
 if (split != NULL)
 {
@@ -78,8 +77,10 @@ if (split != NULL)
 			if (split[j] != NULL)
 			{
 				while (temp < size)
+				{
 					split[j][temp] = str[(i - size) + temp];
 					temp++;
+				}
 				split[j][temp] = '\0';
 				size = temp = 0;
 				j++;

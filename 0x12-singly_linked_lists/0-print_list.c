@@ -20,6 +20,6 @@ h = h->next;
 nelem++;
 }
 
-ireturn (nelem);
+return (nelem);
 
 }

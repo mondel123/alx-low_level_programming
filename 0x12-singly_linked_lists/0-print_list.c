@@ -1,5 +1,3 @@
-0-print_list.c
-
 #include "lists.h"
 /**
  * print_list - print all all the element of a list_t list

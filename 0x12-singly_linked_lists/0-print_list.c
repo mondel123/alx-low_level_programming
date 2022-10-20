@@ -16,6 +16,7 @@ size_t print_list(const list_t *h)
 			print("[%d] %s\n", 0, "(nil)");
 		else
 			print("[%d] %s\n", h->len, h->str);
+
 		h = h->next;
 		nelem++;
 	}

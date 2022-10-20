@@ -19,5 +19,7 @@ print("[%d] %s\n", h->len, h->str);
 h = h->next;
 nelem++;
 }
-return (nelem);
+
+ireturn (nelem);
+
 }

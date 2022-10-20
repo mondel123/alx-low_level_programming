@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-void first(void) _attribute_((constructor));
-
 /**
  * first - A function that prints first before main is executed
  *
@@ -10,6 +8,6 @@ void first(void) _attribute_((constructor));
 
 void first(void)
 {
-printf("you're best! and yet, you must allow,\n");
+printf("you're beat! and yet, you must allow,\n");
 printf(",\nI bore my house upon my back!\n");
 }

@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+void first(void) _attribute_((constructor));
+
 /**
  * first - A function that prints first before main is executed
  *

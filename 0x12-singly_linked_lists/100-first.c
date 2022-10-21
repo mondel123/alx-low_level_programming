@@ -2,7 +2,6 @@
 
 /**
  * first - A function that prints first before main is executed
- *
  * Return: Nothing
  */
 
